@@ -15,7 +15,7 @@ power(F, n-1);
 
 return F[0][0]; 
 } 
-
+// For Fast Fibonacci using Matrix Multiplication
 void multiply(int F[2][2], int M[2][2]) 
 { 
 int x = F[0][0]*M[0][0] + F[0][1]*M[1][0]; 
